@@ -16,7 +16,7 @@
 	<description>Example code illustrating the usage &amp; configuration of Scandium</description>
 
 	<properties>
-		<assembly.mainClass>org.eclipse.californium.scandium.examples.ExampleDTLSServer</assembly.mainClass>
+		<assembly.mainClass>org.eclipse.californium.scandium.examples_psk.DTLSServer_multi_psk_file_interface</assembly.mainClass>
 	</properties>
 
 	<dependencies>
@@ -31,6 +31,10 @@
 			<artifactId>demo-certs</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+        <dependency>
+            <groupId>org.eclipse.californium</groupId>
+            <artifactId>californium-core</artifactId>
+        </dependency>
 	</dependencies>
 
 	<build>
